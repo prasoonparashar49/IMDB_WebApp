@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>IMDB</h1>
+    <p class="lead">Its a Web app as per the assignment. One must Create movie before listing or editing movie. </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            <b>/Movie/CreateMovie</b>  redirects to Create Movie page
+        </p>
+        <p>@Html.ActionLink("Create Movie", "CreateMovie", "Movie")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Browse Movie Libraries</h2>
+        <p>
+            <strong>Note</strong><em>Onemust create movie before browsing </em><br />
+            <b>/Movie/Index</b> lists all the movies. While creating movie, a user can create a new Actor and Producer<br />
+            <b>/Actors/Create</b> redirects to Create Actor Page
+            <b>/Producers/Create</b> redirects to Create Producer Page
+        </p>
+        <p>@Html.ActionLink("List All Movies", "Index", "Movie")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Edit Movies</h2>
+        <p><strong>Note</strong><em>Onemust create movie before edit </em><br />
+            <b>/Movie/EditMovie/id</b> redirects to Edit Movie page
+        </p>
+        <p>@Html.ActionLink("Edit Movie", "Index", "Movie")</p>
+    </div>
+</div>

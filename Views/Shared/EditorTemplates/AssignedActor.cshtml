@@ -1,0 +1,9 @@
+﻿@model AssignedActor
+@using IMDB_WebApp.Models
+
+<fieldset>
+    @Html.HiddenFor(model => model.ActorId)
+    @Html.CheckBoxFor(model => model.Assigned, new { htmlAttributes = new { @class = "form-control" } })
+    @Html.DisplayFor(model => model.Name)
+ 
+</fieldset>
