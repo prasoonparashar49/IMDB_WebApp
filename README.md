@@ -26,9 +26,13 @@ First create movie before browsing or editing it
 
 ## URL
 1.url for creating movie
+
 2.url for listing movies
+
 3.url for editing movie
+
 4.url for creating actor
+
 5.url for creating producer
 
 ## Important Points
