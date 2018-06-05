@@ -5,9 +5,11 @@ It is using Code First Approach to create the database, hence there is no need o
 Class __IMDBInitializer.cs__ initializes Database with some seed values. 
 
 In __Web.Config__, change connection string to the database that you want
-  <connectionStrings>
+  ```
+    <connectionStrings>
     <add name="DefaultConnection" connectionString="Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-IMDB_WebApp-20180604073403.mdf;Initial Catalog=aspnet-IMDB_WebApp-20180604073403;Integrated Security=True" providerName="System.Data.SqlClient" />
   </connectionStrings>
+  ```
   
   ***(localdb)\v11.0*** above  is the database instance I am connected to. Just change it to the connection instance you want to connect to
 
