@@ -1,16 +1,17 @@
 # IMDB_WebApp
-This is made usign MVC and Entity Framework.
+This is made using MVC and Entity Framework.
 It is using Code First Approach to create the database, hence there is no need of any DB Script
 
-Class IMDBInitializer.cs initializes Database with some seed values. 
+Class __IMDBInitializer.cs__ initializes Database with some seed values. 
 
-In Web.Config, change connection string to the database that you want
+In __Web.Config__, change connection string to the database that you want
   <connectionStrings>
     <add name="DefaultConnection" connectionString="Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-IMDB_WebApp-20180604073403.mdf;Initial Catalog=aspnet-IMDB_WebApp-20180604073403;Integrated Security=True" providerName="System.Data.SqlClient" />
   </connectionStrings>
-  (localdb)\v11.0 above  is the database instance I am connected to. Just change it to the connection instance you want to connect to
+  
+  ***(localdb)\v11.0*** above  is the database instance I am connected to. Just change it to the connection instance you want to connect to
 
-The app Drop And Create database everytime you exectue it. So, make sure that you closes the connection to the database before executing the app. Otherwise, it may throw exception when you run app or try to create movie.
+The app _Drop And Create database_ everytime you exectue it. So, make sure that you closes the connection to the database before executing the app. Otherwise, it may throw exception when you run app or try to create movie.
 
 First create movie before browsing or editing it
 
