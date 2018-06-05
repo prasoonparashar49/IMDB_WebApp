@@ -19,18 +19,18 @@ First create movie before browsing or editing it
 
 
 
-#INSTRUCTIONS TO EXECUTE THE APP
+##INSTRUCTIONS TO EXECUTE THE APP
 
 
 
 
-#URL
+##URL
 1.url for creating movie
 2.url for listing movies
 3.url for editing movie
 4.url for creating actor
 5.url for creating producer
 
-#Important Points
+##Important Points
 1.In Movie Creation page and Edit page, Ensure that you are selecting actors. I have not covered the case where user is not selecting any actor. It will lead to exception
 2.
